@@ -5,10 +5,10 @@ int main() {
     scanf("%d", &num);
 
     // true if num is perfectly divisible by 2
-    if(num % 2 == 0)
-        printf("%d is even.", num);
-    else
+    if(num % 2 != 0)
         printf("%d is odd.", num);
+    else
+        printf("%d is even.", num);
     
     return 0;
 }
